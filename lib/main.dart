@@ -45,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             OutlineButton(
               child: Text('Increment'),
               onPressed: _incrementCounter,
+              borderSide: BorderSide(color: Colors.black),
             ),
           ],
         ),
